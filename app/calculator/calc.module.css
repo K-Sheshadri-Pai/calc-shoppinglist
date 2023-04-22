@@ -1,0 +1,102 @@
+.maindiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.head{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.divbtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+  }
+
+.goback {
+    background-color: #ececec;
+    border: none;
+    border-radius: 10px;
+    text-decoration : none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 50px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.goback:hover{
+    background-color: #f2f2f2;
+}
+
+.calc{
+    width: 320px;
+    margin-top: 60px;
+}
+
+.answer{
+    background-color: #f3f3f3;
+    padding: 10px;
+    font-size: 20px;
+    width: 296px;
+    height: 35px;
+    text-align: right;
+    border: 1px solid #4f4f4f;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.button{
+    background: #333;
+    height: 60px;
+    width: 60px;
+    color: white;
+    font-size: 20px;
+    border: none;
+    float: left;
+    margin: 2px;
+    border-radius: 5px;
+}
+
+.button:hover{
+    background: #666;
+}
+
+.button2{
+    background: #ff5917;
+    height: 60px;
+    width: 124px;
+    color: white;
+    font-size: 20px;
+    border: none;
+    float: left;
+    margin: 2px;
+    border-radius: 5px;
+}
+
+.button2:hover{
+    background: #ff8000;
+}
+
+.button3{
+    background: #03a409;
+    height: 60px;
+    width: 124px;
+    color: white;
+    font-size: 20px;
+    border: none;
+    float: left;
+    margin: 2px;
+    border-radius: 5px;
+}
+
+.button3:hover{
+    background-color: #25c42a;
+}
